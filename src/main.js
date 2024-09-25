@@ -1,18 +1,16 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-
-import ContactC from "./components/ContactC.vue";
-import HomeC from "./components/HomeC.vue";
-import ServicesC from "./components/ServicesC.vue";
-import FaqC from "./components/FaqC.vue";
-
 import { createRouter, createWebHistory } from "vue-router";
+import HomeM from "./components/HomeM.vue";
+import ProfileM from "./components/ProfileM.vue";
+import TasksM from "./components/TasksM.vue";
+import CalenderM from "./components/CalenderM.vue";
 // define the routes => component
 const routes = [
-  { path: "/home", component: HomeC },
-  { path: "/services", component: ServicesC },
-  { path: "/contact", component: ContactC },
-  {path:'/faq', component:FaqC}
+  { path: "/", component: HomeM },
+  { path: "/tasks", component: TasksM },
+  { path: "/calendar", component: CalenderM },
+  {path:'/profile', component: ProfileM}
 ];
 
 // instance of the router
