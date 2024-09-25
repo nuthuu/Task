@@ -1,0 +1,1 @@
+Task Masta is a task management app that offers services like task creation, task assignment, task tracking, and task reporting. It is designed to help teams collaborate it also has profile page for user experience and helping in editing user info.the app also offers a calendar page where users can schedule tasks.
